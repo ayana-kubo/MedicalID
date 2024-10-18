@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Sawarabi Gothic", sans-serif;
+}
+
+.main-visual {
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.is1 {
+    padding: 30px;
+}
+
+.is2 {
+    padding: 30px;
+}
+
+.about {
+    background-color: #ff7b37;
+    padding: 30px;
+   
+}
+
+.text {
+    
+    color: white;
+}
+
+.Medicalis {
+    
+    color: black;
+}
+.text {
+    padding: 30px;
+    
+}
+.FEATURES {
+    background-color: #308047;
+    padding: 30px;
+}
+
+.yellow-brown{
+    margin-right: 1rem;
+}
+
+.medical-id-is{
+    padding: 30px;
+}
+
+.logo{
+    width: 80%;
+    height: auto;
+}
+
+section-no2 {
+    font-size: 1.5rem;
+} 
+.kokoha {
+    font-size: 1.8rem;
+    font-weight: bold;
+} 
+.itumo {
+    font-size: 50rem;
+    font-weight: bold;
+} 
+.no1{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.no2{
+    justify-content: center;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.no3{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.no4{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+
+.no4{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.img2 {
+    width: 50%;
+    height: auto;
+}
+
+.img3 {
+    width: 50%;
+    height: auto;
+}
+.how-to-use  {
+    background-color: #ffb038;
+    padding: 30px;
+}
+
+/* コンピューター用 */
+@media screen and (min-width: 1000px) {
+    .wrapper{
+        display: flex;
+        justify-content: center;
+       }
+
+    .medical-id-is {
+        display: flex;
+    }
+
+    .medical-id-is.no02 {
+        flex-direction: row-reverse;
+    }
+    .box{
+        width: 33.333%;
+    }
+}
+
+
+
