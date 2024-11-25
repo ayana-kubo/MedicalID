@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "Sawarabi Gothic", sans-serif;
 }
@@ -22,31 +26,43 @@ img {
 .is2 {
     padding: 30px;
 }
+section {
+    position: relative;
+}
 
 .about {
     background-color: #ff7b37;
     padding: 30px;
+    position: relative;
    
 }
+.medichann {
+   position: absolute;
+   bottom: -50px;
+   left: 50px;
+}
+
 
 .text {
     
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .Medicalis {
     
-    color: black;
+    color: rgb(0, 0, 0);
 }
 .text {
     padding: 30px;
     
 }
+
+
 .FEATURES {
     background-color: #308047;
     padding: 30px;
+    color: rgb(255, 255, 255); 
 }
-
 .yellow-brown{
     margin-right: 1rem;
 }
@@ -60,7 +76,7 @@ img {
     height: auto;
 }
 
-section-no2 {
+.section-no2 {
     font-size: 1.5rem;
 } 
 .kokoha {
@@ -97,9 +113,9 @@ section-no2 {
 }
 
 
-.no4{
+.no5{
     display: flex;
-    margin-top: 5rem;
+    margin-top: 8rem;
     justify-content: center;
     width: 100%;
     height: auto;
@@ -115,7 +131,7 @@ section-no2 {
     height: auto;
 }
 .how-to-use  {
-    background-color: #3cb371;
+    background-color: #ffffff;
     padding: 30px;
 }
 
@@ -130,21 +146,25 @@ section-no2 {
   right: 0;
   width: 40px;
   height: 40px;
-  background: #dc143c;
-  color: #ffffff;
+  /* background: #dc143c;コマンドスラッシュ */
+  color: #000;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 100;
+  
 }
+.material-symbols-rounded {
 
+    font-size: 35px;
+}
 #btn-close {
   z-index: 300;
 }
 
 #menu {
-  background: #2e8b57;
+  background: rgba(46, 139, 87,0.8);
   position: fixed;
   top: 0;
   right: 0;
@@ -175,6 +195,24 @@ section-no2 {
 #menu a:hover {
   color: #666;
 }
+
+.pagetop {
+    position:fixed;
+    bottom: 20px;
+    right:20px;
+}
+
+.positionfix {
+    position:fixed;
+    bottom: 20px;
+    right:20px;
+    
+}
+
+.positionfix a {
+    color: #000;
+}
+
 @media screen and (max-width: 640px) {
   #gallery {
     grid-template-columns: 1fr;
@@ -188,6 +226,12 @@ section-no2 {
 
 /* コンピューター用 */
 @media screen and (min-width: 1000px) {
+
+    .body-wrapper{
+       max-width: 1200px;
+       margin: 0 auto;
+       }
+
     .wrapper{
         display: flex;
         justify-content: center;
@@ -206,4 +250,4 @@ section-no2 {
 }
 
 
-
+  
