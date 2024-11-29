@@ -31,7 +31,7 @@ section {
 }
 
 .about {
-    background-color: #ff7b37;
+    background-color: #FAF8F2;
     padding: 30px;
     position: relative;
    
@@ -45,7 +45,7 @@ section {
 
 .text {
     
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .Medicalis {
@@ -59,9 +59,9 @@ section {
 
 
 .FEATURES {
-    background-color: #308047;
+    background-color: #FAF8F2;
     padding: 30px;
-    color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
 }
 .yellow-brown{
     margin-right: 1rem;
@@ -135,10 +135,85 @@ section {
     padding: 30px;
 }
 
-.FAQ　{
+.FAQ {
     padding: 30px;
+    background-color: #FAF8F2;
 }
-
+/* 必須 */
+.accordion-content {
+    display: none;
+  }
+  
+  /* 装飾用 */
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+    background: #FFF;
+  }
+  
+  .accordion-header {
+    background-color: #ECE6D9;
+    padding: 12px 45px 10px 20px;
+    margin: 10px 0 0;
+    
+  cursor: pointer;
+  position: relative;
+  }
+  
+  .accordion-header::before,
+  .accordion-header::after{
+    position:absolute;
+    content:'';
+    top:1px;
+    right:20px;
+    bottom:0;
+    width:12px;
+    height:2px;
+    margin:auto;
+    background:#151E2F;
+  }
+  .accordion-header::after{
+    transform:rotate(-90deg);
+    transition:transform 0.3s;
+  }
+  .accordion-header.active::after{transform:rotate(0deg);}
+  
+  .accordion-content {
+    background-color: #FFF;
+    padding: 12px 20px 10px;
+  }
+  
+  .accordion-header span,
+  .accordion-content span{
+    padding-left: 25px;
+    position: relative;
+  }
+  
+  .accordion-header span::before{
+    position: absolute;
+    content:"Q";
+    top: 2px;
+    left: 0;
+    color: #151E2F;
+    font-size: 17px;
+  }
+  
+  
+  .accordion-content span::before{
+      position: absolute;
+    content:"A";
+    top: 3px;
+    left: 0;
+    color: #151E2F;
+    font-size: 17px;
+  }
+  
+  /* hover */
+  .accordion-header:hover {
+    background-color: #F2F2F2;
+  }
 #btn-open,
 #btn-close {
   position: fixed;
