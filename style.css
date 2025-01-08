@@ -63,6 +63,10 @@ section {
     padding: 30px;
     color: rgb(0, 0, 0); 
 }
+
+
+
+
 .yellow-brown{
     margin-right: 1rem;
 }
@@ -106,7 +110,6 @@ section {
 
 .no4{
     display: flex;
-    margin-top: 5rem;
     justify-content: center;
     width: 100%;
     height: auto;
@@ -115,7 +118,7 @@ section {
 
 .no5{
     display: flex;
-    margin-top: 8rem;
+
     justify-content: center;
     width: 100%;
     height: auto;
@@ -130,9 +133,30 @@ section {
     width: 50%;
     height: auto;
 }
+
+.slider1,
+.slider3 {
+  padding: 0px 0px 30px;
+
+}
+
+.slider1 div,
+.slider3 div {
+  padding: 0 5px;
+}
+
+.slider2 {
+  padding: 0px 0px 30px;
+}
+
 .how-to-use  {
     background-color: #ffffff;
-    padding: 30px;
+    
+}
+
+.section-title{
+  padding-bottom: 30px;
+  
 }
 
 .FAQ {
@@ -288,6 +312,15 @@ section {
     color: #000;
 }
 
+.slick-track {
+  height: 200px; /*高さ調整*/
+}
+
+.slick-track img {
+  height: 100%;
+  width: auto;
+}
+
 @media screen and (max-width: 640px) {
   #gallery {
     grid-template-columns: 1fr;
@@ -321,6 +354,8 @@ section {
     }
     .box{
         width: 33.333%;
+        padding: 5px;
+        position: relative;
     }
 }
 
