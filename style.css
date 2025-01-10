@@ -80,9 +80,6 @@ section {
     height: auto;
 }
 
-.section-no2 {
-    font-size: 1.5rem;
-} 
 .kokoha {
     font-size: 1.8rem;
     font-weight: bold;
@@ -134,9 +131,14 @@ section {
     height: auto;
 }
 
+.full {
+	margin: 0 calc(50% - 50vw);
+	width: 100vw;
+}
+
 .slider1,
 .slider3 {
-  padding: 0px 0px 30px;
+  padding: 30px 0px 30px;
 
 }
 
@@ -149,6 +151,9 @@ section {
   padding: 0px 0px 30px;
 }
 
+.bx-wrapper {
+  box-shadow: none;
+}
 .how-to-use  {
     background-color: #ffffff;
     
@@ -349,6 +354,13 @@ section {
         display: flex;
     }
 
+    .medical-id-is .section-img{
+      flex: 3;
+  }
+  .medical-id-is .text{
+    flex: 2;
+}
+  
     .medical-id-is.no02 {
         flex-direction: row-reverse;
     }

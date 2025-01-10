@@ -68,7 +68,7 @@
               相談できる場所や連絡先を、<br>
               ポケットに常備してみませんか？<br>
               <br>
-              Medical IDは、あなたの大切な健康情報を、<br>
+             メディカル IDは、あなたの大切な健康情報を、<br>
               万が一に備えていつでもどこでも確認できるようにサポートします。<br>
               病歴やアレルギー、服薬情報をまとめて、安全に管理。<br>
               もしもの時に備え、頼れるものには頼り、あなたの不安を少しでも減らすために、ぜひご活用ください。<br>
@@ -89,18 +89,14 @@
         </picture>
 
       </section>
-      <section class="medical-id-is">
         <section class="no1">
           <img src="images/love and peace.png" alt="" class="logo">
         </section>
 
-        <br>
-        <br>
-
         <section class="medical-id-is no01">
-          <div class="body-wrapper">
-            <img src="images/Medical ID is1.png" alt="" class="is1">
-
+          <div class="section-img">
+            <img src="images/Medical ID is1.png" alt="">
+          </div>
             <div class="text">
               <div class="Medicalis">
                 <h3>
@@ -111,13 +107,13 @@
                 <p class="section-no2">大切なお守りとして</p>
               </div>
             </div>
-          </div>
         </section>
 
 
         <section class="medical-id-is no02">
-          <div class="body-wrapper">
-            <img src="images/Medical ID is2.png" alt="" class="is2">
+          <div class="section-img">
+            <img src="images/Medical ID is2.png" alt="">
+          </div>
             <div class="text">
               <div class="Medicalis">
                 <h3>
@@ -128,9 +124,8 @@
                 <p class="section-no3">意思表示と安心を</p>
               </div>
             </div>
-          </div>
         </section>
-      </section>
+      
 
       <section class="FEATURES" id="FEATURES">
         <div class="body-wrapper">
@@ -183,13 +178,14 @@
 
       <section>
         <!-- 写真スライドショー -->
-        <div class="slider1">
+        <div class="slider1 full">
           <div><img src="images/s01.png" alt="s01"></div> <!-- divの中に画像を挿入します -->
           <div><img src="images/s02.png" alt="s02"></div>
           <div><img src="images/s03.png" alt="s03"></div>
           <div><img src="images/s04.png" alt="s04"></div>
           <div><img src="images/s05.png" alt="s05"></div>
           <div><img src="images/s06.png" alt="s06"></div>
+          
         </div>
 
       </section>
@@ -197,7 +193,7 @@
 
       <section>
         <!-- 写真スライドショー -->
-        <div class="slider3">
+        <div class="slider3 full">
           <div><img src="images/s07.png" alt="s07"></div> <!-- divの中に画像を挿入します -->
           <div><img src="images/s08.png" alt="s08"></div>
           <div><img src="images/s09.png" alt="s09"></div>
@@ -323,7 +319,7 @@
 
       <section>
         <!-- 写真スライドショー -->
-        <div class="slider1">
+        <div class="slider1 full">
           <div><img src="images/s01.png" alt="s01"></div> <!-- divの中に画像を挿入します -->
           <div><img src="images/s02.png" alt="s02"></div>
           <div><img src="images/s03.png" alt="s03"></div>
@@ -337,7 +333,7 @@
 
       <section>
         <!-- 写真スライドショー -->
-        <div class="slider3">
+        <div class="slider3 full">
           <div><img src="images/s07.png" alt="s01"></div> <!-- divの中に画像を挿入します -->
           <div><img src="images/s08.png" alt="s02"></div>
           <div><img src="images/s09.png" alt="s03"></div>
@@ -349,7 +345,7 @@
       </section>
 
 
-      <section>
+      <section class="last full">
         <img src="images/last.png" alt="" class="no4">
       </section>
 
@@ -371,6 +367,8 @@
       $(document).ready(function () {
         $(".slider2").bxSlider({
           auto: true,
+          controls: false,
+          pager: false,
         });
       });
     </script>
