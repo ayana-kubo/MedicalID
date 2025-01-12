@@ -42,7 +42,6 @@ section {
    left: 50px;
 }
 
-
 .text {
     
     color: rgb(0, 0, 0);
@@ -61,6 +60,7 @@ section {
 .FEATURES {
     background-color: #FAF8F2;
     padding: 30px;
+    margin-bottom: 4rem;
     color: rgb(0, 0, 0); 
 }
 
@@ -72,11 +72,11 @@ section {
 }
 
 .medical-id-is{
-    padding: 30px;
+    padding: 50px;
 }
 
 .logo{
-    width: 80%;
+    width: 45%;
     height: auto;
 }
 
@@ -110,12 +110,12 @@ section {
     justify-content: center;
     width: 100%;
     height: auto;
+    margin-top: 3rem;
 }
 
 
 .no5{
     display: flex;
-
     justify-content: center;
     width: 100%;
     height: auto;
@@ -138,17 +138,18 @@ section {
 
 .slider1,
 .slider3 {
-  padding: 30px 0px 30px;
+  padding: 0px 0px 12px;
 
 }
 
 .slider1 div,
 .slider3 div {
-  padding: 0 5px;
+  padding: 0 6px;
 }
 
 .slider2 {
   padding: 0px 0px 30px;
+  margin-top: 5rem;
 }
 
 .bx-wrapper {
@@ -156,7 +157,7 @@ section {
 }
 .how-to-use  {
     background-color: #ffffff;
-    
+
 }
 
 .section-title{
@@ -166,6 +167,7 @@ section {
 
 .FAQ {
     padding: 30px;
+    margin-bottom: 5rem;
     background-color: #FAF8F2;
 }
 /* 必須 */
