@@ -42,6 +42,10 @@ section {
    left: 50px;
 }
 
+.medical-id-is  {
+  background-color: #FAF8F2;
+}
+
 .text {
     
     color: rgb(0, 0, 0);
@@ -58,13 +62,11 @@ section {
 
 
 .FEATURES {
-    background-color: #FAF8F2;
+    background-color: #ffffff;
     padding: 30px;
     margin-bottom: 4rem;
     color: rgb(0, 0, 0); 
 }
-
-
 
 
 .yellow-brown{
@@ -72,6 +74,7 @@ section {
 }
 
 .medical-id-is{
+  letter-spacing: 0.12em;
     padding: 50px;
 }
 
@@ -79,15 +82,32 @@ section {
     width: 45%;
     height: auto;
 }
-
+.sub-title{
+  letter-spacing: 0.12em;
+  font-size: 1rem;
+  color: #858585;
+}
 .kokoha {
+  letter-spacing: 0.12em;
     font-size: 1.8rem;
     font-weight: bold;
 } 
 .itumo {
+  letter-spacing: 0.12em;
     font-size: 50rem;
     font-weight: bold;
 } 
+
+.section-no2 {
+  color: #FDDF3B;
+  font-size: 2rem;
+  font-weight: bold;
+} 
+.section-no3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+} 
+
 .no1{
     text-align: center;
     margin-top: 5rem;
@@ -161,8 +181,10 @@ section {
 }
 
 .section-title{
+  letter-spacing: 0.12em;
   padding-bottom: 30px;
-  
+  letter-spacing: 0.12em;
+  text-align: center;
 }
 
 .FAQ {
@@ -185,8 +207,9 @@ section {
   }
   
   .accordion-header {
-    background-color: #ECE6D9;
-    padding: 12px 45px 10px 20px;
+    background-color: #ffffff;
+    font-weight: bold;
+    padding: 12px 45px 40px 20px;
     margin: 10px 0 0;
     
   cursor: pointer;
@@ -243,7 +266,7 @@ section {
   
   /* hover */
   .accordion-header:hover {
-    background-color: #F2F2F2;
+    color: #fea744;
   }
 #btn-open,
 #btn-close {
@@ -368,7 +391,7 @@ section {
     }
     .box{
         width: 33.333%;
-        padding: 5px;
+        padding: 10px;
         position: relative;
     }
 }
