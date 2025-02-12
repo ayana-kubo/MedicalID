@@ -95,3 +95,34 @@ close.addEventListener('click',menuClose);
 //   item.animate(keyframes, options);
 // });
 
+$(document).ready(function () 
+{
+   $('.slider-no01').slick({
+     autoplay: true,
+     autoplaySpeed: 0,
+     speed: 2000, /*流れるスピード*/
+     fade: true
+   });
+ });
+
+ $(document).ready(function () 
+ {
+    $('.slider-no02').slick({
+     autoplay: true,
+     autoplaySpeed: 0,
+     speed: 2000, /*流れるスピード*/
+     fade: true
+    });
+  });
+
+
+  $(document).ready(function () 
+  {
+     $('.main-slide').slick({
+      autoplay: true,
+      autoplaySpeed: 0,
+      speed: 2000, /*流れるスピード*/
+      fade: true
+      
+     });
+   });
